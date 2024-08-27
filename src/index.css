@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.moderustic {
+  font-family: "Moderustic", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.u-fade-type-down{
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.u-fade-type-down.is-active{
+    transition: 2s;
+    transform: translateY(0);
+    opacity: 1;
+}
